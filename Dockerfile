@@ -7,8 +7,8 @@ RUN conda install -y \
   scipy=0.17.1
 
 
-RUN conda install -c johanneskoester bcftools=1.2=0
-RUN conda install -c bioconda pysam=0.8.4
+RUN conda install -c johanneskoester bcftools
+RUN conda install -c bioconda pysam
 
 #RUN conda install -c r ncurses
 #RUN pip install pysam==0.8
